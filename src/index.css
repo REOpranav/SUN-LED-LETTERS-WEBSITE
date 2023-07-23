@@ -1,13 +1,94 @@
 body {
+  background-color: gold;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+/* top list code  */
+.topList {
+      text-transform: capitalize;
+      background-color: transparent;
+      top: 0%;
+      left: 0%;
+      right: 0%;
+     
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ul-list {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 4rem;
+  
+}
+
+li{
+
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  margin-inline-end: 10px;
+
+}
+
+li:hover {
+ border-bottom: 2px solid #333;
+  color: black;
+
+}
+
+li:active{
+  background-color: gold;
+  color: black;
+}
+
+.sign-board{
+   font-family:Comic Sans MS;
+   font-weight: bolder;
+   text-transform: uppercase;
+   word-spacing: 4px;
+   font-size: xx-large;
+   padding: 2rem;
+   justify-content: center;
+   display: inline;
+   border: 2px solid black;
+   border-radius: 15px;
+   color: white;
+   margin-left:5px;
+   text-shadow: 1px 1px 10px black;
+}
+
+.header{
+  text-align: center;
+}
+
+/* CSS for chain container */
+.chain-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS for chain boxes */
+.chain-box {
+  animation: chain-animation 1s infinite alternate; /* Using animation for chain effect */
+}
+
+/* CSS animation keyframes for the chain effect */
+@keyframes chain-animation {
+  0% {
+    transform: scale(0);
+   background-color: gold;
+  }
+  100% {
+    transform: scale(2);
+    background-color: gold;
+   
+  }
+}
+.straight-line {
+    border-top: 2px solid black; /* Adjust the width and color as desired */
+    width: 500px;
+    margin: 20px auto; /* Center the line on the page */
+}
+.bulb-image {
+  min-height: 3rem;
 }
