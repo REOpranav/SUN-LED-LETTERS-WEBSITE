@@ -2,11 +2,12 @@ body {
   background-color: gold;
   margin: 0;
   padding: 0;
+  box-shadow: inset 10px 10px 100px #333;
 }
 /* top list code  */
 .topList {
       text-transform: capitalize;
-      background-color: transparent;
+      background-color: transparent ;
       top: 0%;
       left: 0%;
       right: 0%;
@@ -16,9 +17,8 @@ body {
 .ul-list {
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  margin-bottom: 4rem;
-  
+  text-align: end;
+  margin-bottom: 2rem; 
 }
 
 li{
@@ -26,12 +26,12 @@ li{
   list-style-type: none;
   display: inline-block;
   padding: 20px;
-  margin-inline-end: 10px;
-
+  margin-inline-end: 30px;
+  
 }
 
 li:hover {
- border-bottom: 2px solid #333;
+ border-bottom: 1px solid #333;
   color: black;
 
 }
@@ -42,6 +42,7 @@ li:active{
 }
 
 .sign-board{
+
    font-family:Comic Sans MS;
    font-weight: bolder;
    text-transform: uppercase;
@@ -50,15 +51,16 @@ li:active{
    padding: 2rem;
    justify-content: center;
    display: inline;
-   border: 2px solid black;
-   border-radius: 15px;
    color: white;
-   margin-left:5px;
+   margin-left:10px;
    text-shadow: 1px 1px 10px black;
+   margin-bottom: 10px;
+   border-radius: 10px;
 }
 
 .header{
   text-align: center;
+  
 }
 
 /* CSS for chain container */
@@ -75,14 +77,15 @@ li:active{
 /* CSS animation keyframes for the chain effect */
 @keyframes chain-animation {
   0% {
-    transform: scale(0);
-   background-color: gold;
+    transform: scale(1.5);
+   background-color: transparent;
   }
   100% {
     transform: scale(2);
-    background-color: gold;
+    background-color: transparent;
    
   }
+  
 }
 .straight-line {
     border-top: 2px solid black; /* Adjust the width and color as desired */
@@ -91,4 +94,268 @@ li:active{
 }
 .bulb-image {
   min-height: 3rem;
+}
+.email{
+  background-color: transparent;
+  color: blue;
+  margin-right: 70%;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: flex;
+  margin-top: -91px;
+  padding: 20px;
+  justify-content: flex-start;
+  font-weight: bolder;
+}
+.email:hover{
+  border-bottom: 1px solid #333;
+  color: red
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+.quotes{
+    margin-top: -5rem ;
+    font-size: 0.75in;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Limelight', cursive;
+    margin-left: 0%;
+    margin-right: 10%;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: transparent;
+    margin-left: 10%;
+}
+ .para-q{
+    margin-top: -5rem ;
+    font-family: monospace;
+    text-transform:none ;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align :justify;
+    width: 50%;
+    margin-left: 25%;
+} 
+.content {
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+
+}
+
+.image {
+    margin-left: 30%; /* Optional: Add some space between the content and image */
+    height: 350px;
+    width:  350px;
+    border-radius : 10px;
+    margin-top: 6%;
+}
+
+.features{
+    text-align:justify;
+    width: 100%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-indent: 10px;
+}
+.features p{
+    text-indent: 10px;
+}
+
+.head-head{
+    margin-bottom: 7%;
+    margin-top: 7%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large; 
+
+}
+
+/* prizing input  */
+.prizing {
+    padding: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align:center;
+    color: black;
+    margin-left: 1%;
+    margin-bottom: 15px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+.prize {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+/* prizing form */
+.form{
+  text-transform: uppercase;
+  word-spacing: 3px;
+  font-size: 20px;
+  text-align: left;
+  font-family: monospace;
+
+}
+
+.button{
+  font-family: monospace;
+  padding :10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 10px black;
+  background-color: transparent;
+  
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+}
+
+.totalfeet,.totalRate{
+  text-transform: uppercase;
+  border:1px solid black;
+  background-color: gold;
+  box-shadow: inset 1px 1px 10px black;
+  padding: 10px;
+  text-align: center;
+  font-size: x-large;
+  font-family: monospace;
+  width: 50%;
+  margin-left: 24%;
+}
+
+
+.head-head-prize {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;  
+}
+.squarefeet-rate{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: gold ;
+  box-shadow: inset 1px 1px 10px black;
+  font-family: monospace;
+  font-size: x-large;
+}
+.bold{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+legend{
+  text-align: left;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: xx-large;
+  font-style: italic;
+
+}
+.fieldset-prize{
+  margin-top: 10%;
+  background-color: aliceblue;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 7%;
+}
+
+/* css for sign board */
+
+
+.square{
+  border: 1px solid black;
+  display: grid;
+  place-content: center;
+  margin: auto;
+  color: white;
+  margin-top: 6% ;
+  margin-bottom: 3%;
+}
+
+
+
+/* input for sign board  */
+
+input{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    background-color: gold;
+    border: none;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+
+}
+
+select{
+    text-transform: uppercase;
+    background-color:gold; 
+    display: inline;
+    width: 14.4%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%; 
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+
+header {
+    margin-bottom: -20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: blue;
+    box-shadow: inset 1px -1px 30px yellow ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+footer {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: blue;
+    box-shadow: inset 1px -1px 30px yellow ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+option{
+  color: black;
+}
+
+.total-sign{
+  padding: 40px;
 }
