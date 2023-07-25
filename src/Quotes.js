@@ -8,8 +8,9 @@ const Quotes = () => {
             <p className='para-q'>Do you need an artist to breathe art in you company ? Here's the super easy platform to the perfect illustrator ,2D and 3D artist. Connect and make it beautfull </p>
       </div>
      
-      <img src="https://media.istockphoto.com/id/1260517250/vector/black-light-bulb-icon-isolated-on-yellow-background-energy-and-idea-symbol-lamp-electric.jpg?s=170667a&w=0&k=20&c=VJuwEcLNuVlkGFmwpjWD_AioB4PSeguMwFcplAYvRn8=" 
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NBC_Peacock_1986.svg/1200px-NBC_Peacock_1986.svg.png" 
             className='image'
+            title='company logo'
         />
 
     </div>
