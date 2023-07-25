@@ -122,7 +122,7 @@ function App() {
                  setfontstyle = {setfontstyle}
               />
          
-         <Footer/>
+        
      </fieldset>
      
    </div>
