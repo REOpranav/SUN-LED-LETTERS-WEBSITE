@@ -12,9 +12,9 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
    <fieldset title='prize' className='fieldset-prize'id='prize' > 
       <legend id='prize'>PRIZE</legend>
          
-        <h3 className='head-head-prize'>LED BOARD விலை </h3>
+        <h3 className='head-head-prize'>LED BOARD விலை பட்டியல்  </h3>
         
-         <h4 className='squarefeet-rate'>ஒரு Sq.feet விலை பட்டியல் :<b className='bold'> ரூ  650 /-</b> </h4> 
+         <h4 className='squarefeet-rate'>ஒரு Sq.feet விலை :<b className='bold'> ரூ  650 /-</b> </h4> 
           
           <form onSubmit={handlesubmit} className='prize'>
             <label htmlFor="length">board length : </label> 
