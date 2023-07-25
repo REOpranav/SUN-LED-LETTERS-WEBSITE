@@ -7,9 +7,9 @@ const Content = ({colorValue,setcolorValue}) => {
     
      <div>
 
-              
              <select 
                   className='optionTag'
+                  id='board color'
                   value={colorValue}
                   onChange={(e)=>{setcolorValue(e.target.value)}}>    
                     
@@ -25,16 +25,14 @@ const Content = ({colorValue,setcolorValue}) => {
                     <option value="Magenta">Magenta</option>
                     <option value="Cyan">Cyan</option>
                     <option value="Pink">Pink</option>
+                    <option value="black">black</option>
                     <option value="Purple">Purple</option>
                     <option value="Teal">Teal</option>
-                    <option value="Orange-Red">Orange-Red</option>
+                    <option value="Orangered">Orange-Red</option>
                     <option value="Green">Green</option>
-                    <option value = "black">black</option>
 
              </select>
-
-            
-
+           <label htmlFor="board color" className='label-design' >Board color</label>
     
      </div>
    
