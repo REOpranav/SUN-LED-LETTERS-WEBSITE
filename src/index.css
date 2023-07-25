@@ -115,6 +115,7 @@ li:active{
 
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 
+/* quotes components  */
 .quotes{
     margin-top: -5rem ;
     font-size: 0.75in;
@@ -127,7 +128,9 @@ li:active{
     margin-bottom: 10px;
     background-color: transparent;
     margin-left: 10%;
+  
 }
+/* quotes componenets  */
  .para-q{
     margin-top: -5rem ;
     font-family: monospace;
@@ -135,21 +138,21 @@ li:active{
     font-size: 16px;
     font-weight: lighter;
     text-align :justify;
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 14%;
 } 
+/* quotes for image  */
 .content {
   justify-content: center;
   text-align: center;
-  width: 40%;
+  background-color: transparent;
 
 }
-
+/* qoutes company logo design  */
 .image {
-    margin-left: 30%; /* Optional: Add some space between the content and image */
-    height: 350px;
-    width:  350px;
-    border-radius : 10px;
+    margin-left: 10%; /* Optional: Add some space between the content and image */
+    height: 300px;
+    width:  450px;
     margin-top: 6%;
 }
 
@@ -285,8 +288,6 @@ legend{
   margin-top: 6% ;
   margin-bottom: 3%;
 }
-
-
 
 /* input for sign board  */
 
