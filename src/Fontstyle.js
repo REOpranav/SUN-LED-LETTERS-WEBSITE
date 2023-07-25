@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { lazy } from 'react'
 
 const Fontstyle = ({fontstyle,setfontstyle}) => {
   return (
+    <div>
+
     <select
         className='optionTag'
+        id='font style'
         value={fontstyle}
         onChange={(e)=>{setfontstyle(e.target.value)}}
     >      
@@ -29,8 +32,11 @@ const Fontstyle = ({fontstyle,setfontstyle}) => {
           <option value="Verdana">Verdana</option>
           <option value="Webdings">Webdings</option>
           <option value="Wingdings">Wingdings</option>
-  </select> 
+  </select>
 
+    <label htmlFor="font style" className='label-design' >Font style</label>
+
+  </div>
         
 
   )
