@@ -3,9 +3,9 @@ import React from 'react'
 const Textcolor = ({textcolor,settextcolor}) => {
   return (
     <div>
-         
              <select 
                   className='optionTag'
+                  id='letter color'
                   value={textcolor}
                   onChange={(e)=>{settextcolor(e.target.value)}}
              >      
@@ -27,8 +27,9 @@ const Textcolor = ({textcolor,settextcolor}) => {
                     <option value="Green">Green</option>
                     <option value = "black">black</option>
                     
-
              </select>
+
+         <label htmlFor="letter color" className='label-design'>letter color</label>
         
     </div>
   )
