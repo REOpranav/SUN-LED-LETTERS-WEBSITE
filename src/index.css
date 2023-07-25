@@ -297,7 +297,7 @@ input{
     background-color: gold;
     border: none;
     border-bottom: 2px solid black;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
 }
 
