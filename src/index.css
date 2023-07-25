@@ -1,6 +1,3 @@
-@media (max-width: 600px) {
-  header {
-    text-align: center;}
   body {
   background-color: gold;
   margin: 0;
@@ -385,5 +382,4 @@ option{
 .total-sign{
   padding: 30px;
 
-}
 }
