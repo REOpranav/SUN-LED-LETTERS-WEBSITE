@@ -7,13 +7,17 @@ const Text = ({text,settext}) => {
 
               <input  type="text" 
                       id='text content'
+                      className='input'
                       placeholder='enter board name ' 
                       value={text}
                       onChange={(e)=>{settext(e.target.value)}}
                     
             />
+        <label htmlFor="text content" className='label-design'>board name</label>
 
         </form>
+
+
     </div>
   )
 }
