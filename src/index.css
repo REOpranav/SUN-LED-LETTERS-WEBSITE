@@ -139,6 +139,7 @@ li:active{
     font-weight: lighter;
     text-align :justify;
     width: 70%;
+    text-shadow: 0; 
     margin-left: 14%;
 } 
 /* quotes for image  */
@@ -146,6 +147,9 @@ li:active{
   justify-content: center;
   text-align: center;
   background-color: transparent;
+}
+.content:hover{
+  text-shadow: 3px 3px 10px white;
 
 }
 /* qoutes company logo design  */
@@ -154,7 +158,13 @@ li:active{
     height: 300px;
     width:  450px;
     margin-top: 6%;
-}
+    filter: drop-shadow( 19px -10px 0px black);
+  }
+
+  .image:hover{
+    filter: drop-shadow( 19px -10px 0px #333);
+    
+  }
 
 .features{
     text-align:justify;
@@ -292,29 +302,40 @@ legend{
 /* input for sign board  */
 
 input{
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-left: 10%;
-    background-color: gold;
-    border: none;
-    border-bottom: 2px solid black;
-    text-transform: capitalize;
+  margin-top: 1rem;
+  width: 14%;
+  padding: 10px;
+  background-color: gold;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 
 }
 
-select{
-    text-transform: uppercase;
-    background-color:gold; 
-    display: inline;
-    width: 14.4%;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-left: 10%; 
-    border: none;
-    border-bottom: 2px solid black;
-    
+.label-design {
+  text-transform: capitalize;
+  margin-left: 2rem;
+  font-family: monospace;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: gold;
+  color: black;
+  
+}
+.label-design:hover{
+  background-color: white;
 }
 
+.optionTag{
+  margin-top: 1rem;
+  width: 16%;
+  padding: 10px;
+  background-color: gold;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+
+/* header for sign components  */
 header {
     margin-bottom: -20px;
     margin-left: 5%;
@@ -333,6 +354,7 @@ header {
     word-spacing: 5px;
     letter-spacing: 5px;
 }
+/* footer for all */
 footer {
 
     margin-left: 5%;
@@ -358,5 +380,6 @@ option{
 }
 
 .total-sign{
-  padding: 40px;
+  padding: 30px;
+
 }
