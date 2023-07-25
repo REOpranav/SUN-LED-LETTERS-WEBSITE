@@ -4,7 +4,8 @@ const Textweight = ({textweight,settextweight}) => {
   return (
     <div>
         <select
-                className='optionTag'     
+                className='optionTag'
+                id='text weight'   
                 value={textweight}
                 onChange={(e)=>settextweight(e.target.value)}
          >
@@ -20,6 +21,9 @@ const Textweight = ({textweight,settextweight}) => {
              <option value="600">600</option>
              
         </select>
+
+      <label htmlFor="text weight" className='label-design'>letter weight</label>
+
     </div>
   )
 }
