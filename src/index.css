@@ -117,7 +117,7 @@ li:active{
 
 /* quotes components  */
 .quotes{
-    margin-top: -5rem ;
+    margin-top:-3rem ;
     font-size: 0.75in;
     text-transform: uppercase;
     font-weight: bold;
@@ -132,7 +132,7 @@ li:active{
 }
 /* quotes componenets  */
  .para-q{
-    margin-top: -5rem ;
+    margin-top: -4rem ;
     font-family: monospace;
     text-transform:none ;
     font-size: 16px;
@@ -147,6 +147,7 @@ li:active{
   justify-content: center;
   text-align: center;
   background-color: transparent;
+  
 }
 .content:hover{
   text-shadow: 3px 3px 10px white;
@@ -157,7 +158,7 @@ li:active{
     margin-left: 10%; /* Optional: Add some space between the content and image */
     height: 300px;
     width:  450px;
-    margin-top: 6%;
+    margin-top: 7%;
     filter: drop-shadow( 19px -10px 0px black);
   }
 
