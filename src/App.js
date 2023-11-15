@@ -18,6 +18,7 @@ import Textcolor from './Textcolor';
 import Textsize from './Textsize';
 import Fontstyle from './Fontstyle';
 import Headerone from './Headerone';
+import NeonImage from './NeonImage';
 
 function App() {
 
@@ -48,31 +49,31 @@ function App() {
     setInputtwo('')
   }
     
-  const handleSubmit = (e)=>{
-    e.preventDefault()
-   }
 
  
   return (
    <div>
-      <Header />
-     
-      <TopList/>
     
+      <Header />
+      
+      <TopList/>
+      
+      <NeonImage />
+      
       <Quotes />
-
+      
       <Pricing 
         inputone = {inputone}
          setInputone= {setInputone}
         inputtwo={inputtwo}
          setInputtwo={setInputtwo}
         handlesubmit={handlesubmit}
-
-      />         
+      />        
+   
     <fieldset className='total-sign' id='design'>
         <Headerone />
            
-            <Square
+        <Square
                 colorValue = {colorValue}
                 height = {height}
                 width={width}
@@ -80,30 +81,28 @@ function App() {
                 textcolor = {textcolor}
                 textsize={textsize}
                 fontstyle = {fontstyle}
-                textweight={textWeight}
-               
-            />
+                textweight={textWeight} 
+         />
 
-            <Heightbox
+          <Heightbox
                 height = {height}
                 setheight = {setheight}
-                
           />
             
-            <Width 
+          <Width 
                 width= {width}
                 setwidth ={setwidth}
-            />
+          />
             
-            <Textsize 
+          <Textsize 
                  textsize = {textsize}
                  settextsize = {settextsize}
-            /> 
+          /> 
 
-            <Text
+          <Text
                 text ={text}
                 settext = {settext}
-            />
+          />
          
            <Content
                 colorValue = {colorValue}
@@ -111,16 +110,16 @@ function App() {
               
             />  
             
-            <Textcolor 
+          <Textcolor 
                  textcolor = {textcolor}
                  settextcolor = {settextcolor}
                 
-              />
+          />
 
-            <Fontstyle 
+          <Fontstyle 
                  fontstyle = {fontstyle}
                  setfontstyle = {setfontstyle}
-              />
+           />
          
         
      </fieldset>

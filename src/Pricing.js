@@ -6,24 +6,24 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
 
     const totalRate = totalsqFeet * 650
 
-  return (
+  return (  
    
-  <div >
+  <div>
+    <main className='main_total'>
    <fieldset title='prize' className='fieldset-prize'id='prize' > 
-      <legend id='prize'>PRIZE</legend>
          
-        <h3 className='head-head-prize'>LED BOARD விலை பட்டியல்  </h3>
-        
-         <h4 className='squarefeet-rate'>ஒரு Sq.feet விலை :<b className='bold'> ரூ  650 /-</b> </h4> 
-          
+      <h3 className='head-head-prize'>LED sign board price list</h3>
+    
+    <br />    
+         <h4 className='squarefeet-rate'>square feet rate per feet :<b className='bold'> RS : 650 /-</b> </h4> 
+    <br />   
           <form onSubmit={handlesubmit} className='prize'>
             <label htmlFor="length">board length : </label> 
                <input type="number"
                       name="length"
                       id="length" 
                       className='prizing'
-                      placeholder='நீளம்  ( அடி ) '
-                      required
+                      placeholder='length (in feet)'
                       value={inputone}
                       onChange={(e)=>setInputone(e.target.value)}
                 /> 
@@ -35,20 +35,21 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
                  name="height"
                  id="height"
                  className='prizing' 
-                 required
-                 placeholder='உயரம் ( அடி )'
+                 placeholder='Height (in feet)'
                  value={inputtwo}
                  onChange={(e)=>setInputtwo(e.target.value)}
-           /> <br />
-
-       
+           /> 
+  <br />     
       </form>
+       
+            <p className='totalfeet'> total Sq.feet :  </p>
+              <p className='bottom_feet_one'> {totalsqFeet} Sq.feet</p>
 
-            <p className='totalfeet'> மொத்த Sq.feet : <b className='bold'>{totalsqFeet} Sq.feet</b> </p>
+             <p className='totalRate'> total rate of sign board</p>
+             <p className='bottom_feet_two'> {totalRate} Rs</p>
 
-            <p className='totalRate'> மொத்த borad விலை : <b className='bold'> {totalRate} </b>/-</p>
     </fieldset>
-
+    </main>
 </div>
 
   )

@@ -2,16 +2,20 @@ import React from 'react'
 
 const Quotes = () => {
   return (
-    <div className='quotes'>
-      <div className='content'>
-            <p> the art of hiring </p>
-            <p className='para-q'>Do you need an artist to breathe art in you company ? Here's the super easy platform to the perfect illustrator ,2D and 3D artist. Connect and make it beautfull </p>
+    <div className='totalQuotes'>
+      
+      <div className='quotes'>
+         <p>Led Neon with a unique design </p>
       </div>
-     
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NBC_Peacock_1986.svg/1200px-NBC_Peacock_1986.svg.png" 
-            className='image'
-            title='3D LETTER DESIGN'
-        />
+      
+      <div className='content'>
+            <p>Neon for <br /> your company</p>
+      </div>
+
+      <div className='quotes-secound'>
+         <p>neon is whatever you want it to be; <br /> a wonderful gift,a cool logos for your business,<br /> or a nice decoration for your home,office or events</p>
+      </div>
+       
 
     </div>
   )
