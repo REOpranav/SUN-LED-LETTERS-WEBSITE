@@ -20,6 +20,7 @@ import Fontstyle from './Fontstyle';
 import Headerone from './Headerone';
 import NeonImage from './NeonImage';
 
+
 function App() {
 
    const [inputone,setInputone] =  useState ('')
@@ -49,7 +50,6 @@ function App() {
     setInputtwo('')
   }
     
-
  
   return (
    <div>
