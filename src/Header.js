@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import { Menu, Flex } from "antd";
 
 const Header = () => {
   return (
-<div className='header'>   
-         <p>Sun led letters</p>
-</div>
-  )
-}
+    <div>
+      <Flex justify="space-between">
+        <Menu mode="horizontal">
+          <Menu.Item>Sun Led Letters</Menu.Item>
+        </Menu>
 
-export default Header
+        <Menu mode="horizontal" style={{ width: "20%" }}>
+          <Menu.Item>Products</Menu.Item>
+          <Menu.Item>Projects</Menu.Item>
+          <Menu.Item>About Us</Menu.Item>
+        </Menu>
+      </Flex>
+    </div>
+  );
+};
+
+export default Header;
