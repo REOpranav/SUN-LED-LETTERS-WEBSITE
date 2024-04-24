@@ -60,7 +60,7 @@ function App() {
       
       <NeonImage />
       
-      <Quotes />
+      <Quotes  />
       
       <Pricing 
         inputone = {inputone}
