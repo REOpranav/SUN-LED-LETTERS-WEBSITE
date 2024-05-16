@@ -8,9 +8,9 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
 
   return (  
    
-  <div>
+  <div id='prize'>
     <main className='main_total'>
-   <fieldset title='prize' className='fieldset-prize'id='prize' > 
+   <fieldset title='prize' className='fieldset-prize' > 
          
       <h3 className='head-head-prize'>LED sign board price list</h3>
     
@@ -18,7 +18,7 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
          <h4 className='squarefeet-rate'>square feet rate per feet :<b className='bold'> RS : 650 /-</b> </h4> 
     <br />   
           <form onSubmit={handlesubmit} className='prize'>
-            <label htmlFor="length">board length : </label> 
+            <label htmlFor="length" style={{color:'white'}}>board length : </label> 
                <input type="number"
                       name="length"
                       id="length" 
@@ -29,7 +29,7 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
                 /> 
 <br />
 
-         <label htmlFor="height">board height : </label>
+         <label htmlFor="height" style={{color:'whi'}}>board height : </label>
          
          <input  type="number"
                  name="height"

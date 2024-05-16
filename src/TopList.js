@@ -1,12 +1,12 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 const TopList = () => {
   return (
     <div className='topList'>
      <div>
         <ul className='ul-list'>
-
-          <a href="#features"><li>features</li></a>
+         <a href="#features"><li>features</li></a> 
           <a href="#direction"><li>company</li></a>
           <a href="#design"><li>design</li></a>
           <a href="#prize"><li>prize</li></a> 

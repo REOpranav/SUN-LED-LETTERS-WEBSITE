@@ -19,6 +19,9 @@ import Textsize from './Textsize';
 import Fontstyle from './Fontstyle';
 import Headerone from './Headerone';
 import NeonImage from './NeonImage';
+import FeaturesPage from './Features';
+import ContactPage from './Contact';
+
 
 function App() {
 
@@ -49,19 +52,16 @@ function App() {
     setInputtwo('')
   }
     
-
- 
   return (
    <div>
-    
-      <Header />
-      
+      <Header />      
+
       <TopList/>
       
       <NeonImage />
-      
+
       <Quotes  />
-      
+            
       <Pricing 
         inputone = {inputone}
          setInputone= {setInputone}
@@ -123,6 +123,10 @@ function App() {
          
         
      </fieldset>
+     <FeaturesPage />
+  
+    <ContactPage />
+
      
    </div>
   )
