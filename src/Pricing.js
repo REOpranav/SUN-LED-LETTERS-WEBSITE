@@ -8,7 +8,7 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
 
   return (  
    
-  <div id='prize'>
+  <div id='prize1'>
     <main className='main_total'>
    <fieldset title='prize' className='fieldset-prize' > 
          
@@ -29,7 +29,7 @@ const Pricing = ({handlesubmit,inputone,setInputone, inputtwo ,setInputtwo ,hand
                 /> 
 <br />
 
-         <label htmlFor="height" style={{color:'whi'}}>board height : </label>
+         <label htmlFor="height" style={{color:'white'}}>board height : </label>
          
          <input  type="number"
                  name="height"

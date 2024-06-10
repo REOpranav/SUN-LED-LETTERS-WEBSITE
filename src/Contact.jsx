@@ -29,10 +29,19 @@ const ContactForm = () => {
             <Form.Item
               name="email"
               label="Email"
-              rules={[{ required: true, message: 'Please enter your email' }]}
+              rules={[{ required: false, message: 'Please enter your email' }]}
             >
               <Input type="email" />
             </Form.Item>
+
+            <Form.Item
+              name="number"
+              label="Mobile Number"
+              rules={[{ required: true, message: 'Please enter your Mobile number' }]}
+            >
+              <Input type='text'/>
+            </Form.Item>
+            
             <Form.Item
               name="message"
               label="Message"
@@ -58,16 +67,16 @@ const ContactInfo = () => {
   const info = {
     name: 'pranav vadivel',
     phone: '7812817300',
-    email: 'pranavavadivel02@gmail.com',
-    address: '181 pattappan kovil street, Salem, Tamil Nadu, 637 502'
+    email: 'pranavavadivel01@gmail.com',
+    address: 'Pattappan kovil st, Salem, Tamil Nadu, 637 502'
   };
 
   return (
     <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px' }}>
       <Card title="Our Contact Information" bordered={false}>
-        <p><strong>Name:</strong> {info.name}</p>
+        <p><strong>Name:</strong> {info.name} </p>
         <p><strong>Phone:</strong> {info.phone}</p>
-        <p><strong>Email:</strong> {info.email}</p>
+        <p><strong>Email:</strong> <a href="mailto:pranavavadivel01@gmail.com">{info.email}</a></p>
         <p><strong>Address:</strong> {info.address}</p>
       </Card>
     </div>
